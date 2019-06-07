@@ -1,11 +1,12 @@
-baseURL = "http://frogsquare.com/"
+baseURL = "https://frogsquare.com/"
 languageCode = "en-us"
 title = "FrogSquare"
 theme = "pulp"
 
 [params]
     author = "RameshRavone"
-    avatar = "avatar.png"
+    avatar = "avatar.jpg"
+    favicon = "favicon.ico"
     publicationYear = "2019"
 
 [[menu.main]]
