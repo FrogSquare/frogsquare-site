@@ -22,10 +22,13 @@
         <nav>
           <ul>
             {{ range .Site.Menus.main }}
-            <li><a href="{{ .URL }}" aria-label="{{ .Identifier }}">{{ .Pre }}<br>{{ .Name }}</a></li>
+            <li><a href="{{ .URL }}" target="_blank" aria-label="{{ .Identifier }}">{{ .Pre }}<br>{{ .Name }}</a></li>
             {{ end }}
           </ul>
         </nav>
+
+        <a href="https://www.patreon.com/bePatron?u=5130479" target="_blank" data-patreon-widget-type="become-patron-button"><img src="/img/become_a_patron_button@2x.png" height="40px"/></a>
+
       </div>
     </div>
     {{- partial "footer.html" . -}}

@@ -33,19 +33,19 @@ body {
 }
 
 a:link {
-  color: #707070;
+  color: #fff;
 }
 
 a:visited {
-  color: #707070;
+  color: #d5d5d5;
 }
 
 a:hover {
-  color: #707070;
+  color: #fff;
 }
 
 a:active {
-  color: #707070;
+  color: #f9721e;
 }
 
 /* Header */
