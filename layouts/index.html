@@ -1,0 +1,17 @@
+{{ define "head" }}
+<meta name="description" content={{ .Site.Params.description }}>
+{{ end }}
+
+{{ define "title" }}
+{{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+
+    {{ partial "sections/cover.html" . }}
+    {{ partial "sections/games.html" . }}
+    {{ partial "sections/projects.html" . }}
+    {{ partial "sections/contact.html" . }}
+
+{{ end }}
+
