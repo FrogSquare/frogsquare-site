@@ -1,0 +1,22 @@
+{
+  "brand" : "FrogSquare",
+  "logo" : "logo.svg",
+  "links" : [
+    {
+      "title" : "Home",
+      "href" : ""
+    },
+    {
+      "title" : "Games",
+      "href" : "#games"
+    },
+    {
+      "title" : "Tools",
+      "href" : "#tools"
+    },
+    {
+      "title" : "Contact",
+      "href" : "#contact"
+    }
+  ]
+}

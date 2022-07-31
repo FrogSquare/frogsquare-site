@@ -1,0 +1,143 @@
+baseURL: https://frogsquare.com/
+languageCode: en-us
+title: FrogSquare
+
+paginate: 3
+googleAnalytics: UA-56284891-10
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog Post
+      url: /blogs
+      weight: 1
+
+    - identifier: gallery
+      name: Gallery
+      title: Image Gallery
+      url: /gallery
+      weight: 2
+
+params:
+  title: "FrogSquare"
+  description: ""
+
+  cover:
+    name: Ramesh Ravone
+    title: I build things for Game development
+    description: A passionate app developer. I tend to make use of modern technologies to build apps/games that looks great, feels fantastic, and basicaly awesome.
+
+  projects:
+    enable: true
+    items:
+      - title: GDFirebase
+        content: A Modular Firebase plugin (Android) for godot game engine
+        image: /images/banners/GDFirebase.png
+        featured:
+          name: Get Source
+          link: https://github.com/FrogSquare/GDFirebase
+        # badges:
+        #   - "Hugo"
+        #   - "Bootstrap"
+        #   - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/FrogSquare
+
+      - title: GDPlayService
+        content: Google play service, login, achievements, leaderboard for Godot
+        image: /images/banners/GDPlayService.png
+        featured:
+          name: Get Source
+          link: https://github.com/FrogSquare/GDPlayService
+        # badges:
+        #   - "Hugo"
+        #   - "Bootstrap"
+        #   - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/FrogSquare
+
+  games:
+    enable: true
+    items:
+      - title: Happy Crush
+        content: Our first prototype game in godotengine, (from which we created - Links & Dots)
+        image: /images/banners/HappyCrush.png
+        featured:
+          name: Get Source
+          link: https://github.com/FrogSquare/HappyCrush
+        # badges:
+        #   - "Hugo"
+        #   - "Bootstrap"
+        #   - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/FrogSquare
+
+      - title: WordPlay
+        content: A Modular Firebase plugin (Android) for godot 
+        image: /images/banners/wordplay.png
+        featured:
+          name: Get Source
+          link: https://frogsquare.itch.io/word-play
+        # badges:
+        #   - "Hugo"
+        #   - "Bootstrap"
+        #   - "Javascript"
+        links:
+          - icon: fab fa-itch-io
+            url: https://frogsquare.itch.io/
+
+      - title: Links & Dots
+        content: Our first prototype game in godotengine, (from which we created - Links & Dots)
+        image: /images/banners/LinksDots.png
+        featured:
+          name: Get Source
+          link: https://frogsquare.itch.io/dots-n-dots
+        # badges:
+        #   - "Hugo"
+        #   - "Bootstrap"
+        #   - "Javascript"
+        links:
+          - icon: fab fa-itch-io
+            url: https://frogsquare.itch.io/
+
+  contact:
+    enable: true
+    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    email: ravone@frogsquare.com
+    btnName: Mail me
+
+  social:
+    enable: true
+    items:
+      - title: github
+        icon: fab fa-github
+        link: https://github.com/FrogSquare
+
+      # - title: medium
+      #  icon: fab fa-medium
+      #  link: https://medium.com/@rameshravone
+
+      - title: itch-io
+        icon: fab fa-itch-io
+        link: https://frogsquare.itch.io
+
+      - title: facebook
+        icon: fab fa-facebook
+        link: https://www.facebook.com/frogsqr/
+
+      - title: twitter
+        icon: fab fa-twitter
+        link: https://twitter.com/frogsqr
+
+
+  footer:
+    text: Copyright 2022

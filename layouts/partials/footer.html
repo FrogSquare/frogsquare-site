@@ -1,0 +1,14 @@
+<section id="footer" class="py-3">
+  <div class="container">
+    <span class="text-muted">{{ .Site.Params.footer.text }}</span>
+
+    {{ if .Site.Params.social.enable }}
+    <span id="social" class="float-right">
+        {{ range .Site.Params.social.items }}
+        <a href="{{ .link }}" class="ml-2 btn-{{ .title }}"><i class="{{ .icon }}"></i></a>
+        {{ end }}    
+    </span>
+    {{ end }}
+
+  </div>
+</section>
