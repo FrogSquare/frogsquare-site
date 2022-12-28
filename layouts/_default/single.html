@@ -11,8 +11,13 @@
 
 <!-- Content Goes here..! -->
 <div class="container py-5">
-  <h1 class="">{{ .Params.title }}</h1>
-  <p>{{ .Content }}</p>
+  <div class="page-header text-center mt-2 mb-5">
+    <h1 class="">{{ .Params.title }}</h1>
+    <time datetime="2022-12-28">Dec 28, 2022</time>
+  </div>
+  <div class="container-sm">
+    <p>{{ .Content }}</p>
+  </div>
 </div>
 
 <script>

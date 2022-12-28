@@ -12,16 +12,16 @@ markup:
 
 Menus:
   main:
-    - identifier: blog
+    - identifier: blogs
       name: Blog
       title: Blog Post
       url: /blogs
       weight: 1
 
-    - identifier: gallery
-      name: Gallery
-      title: Image Gallery
-      url: /gallery
+    - identifier: policies
+      name: Policies
+      title: Policy List
+      url: /policies
       weight: 2
 
 params:
