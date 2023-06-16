@@ -7,6 +7,16 @@
           <h2>{{ .Site.Params.cover.name }}</h2>
           <h3>{{ .Site.Params.cover.title }}</h3>
           <p class="text-secondary">{{ .Site.Params.cover.description }}</p>
+
+          <!-- Ko-fi button -->
+          <script 
+              type='text/javascript' 
+              src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'>
+          </script>
+          <script type='text/javascript'>
+              kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'F1F7H83M1');
+              kofiwidget2.draw();
+          </script>
       </div>
       
       <div class="col-sm-12 col-md-12 col-lg-4">

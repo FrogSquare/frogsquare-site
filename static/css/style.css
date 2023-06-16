@@ -77,3 +77,11 @@ height: auto;
 #projects .card-img-top {transition: transform 0.3s;}
 #projects .float-end .btn {transition: none;border-radius: .5rem !important;border-color: var(--primary-color) !important;}
 #projects .float-end .btn:focus {box-shadow: none !important;}
+.ko-fi::after {
+      content: '\f004';
+      font-weight: 900;
+      font-size: 15px;
+      color: #fff;
+      position: absolute;
+      margin: 20px 0 0 -32px;
+}
